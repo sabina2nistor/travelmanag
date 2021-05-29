@@ -1,0 +1,15 @@
+{% extends "mainapp/header.html" %}
+
+{% block content %}
+
+{% for travel in travels %}
+<p>{{travel}}</p>
+<p>{{travel.name}}</p>
+
+
+
+{% endfor %}
+
+
+
+{% endblock %}
